@@ -1,0 +1,42 @@
+[package]
+name = "zip"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "myzip0"
+path = "src/bin/myzip0.rs"
+
+[[bin]]
+name = "myunzip0"
+path = "src/bin/myunzip0.rs"
+
+[[bin]]
+name = "huffman"
+path = "src/bin/huffman.rs"
+
+[[bin]]
+name = "inflate"
+path = "src/bin/inflate.rs"
+
+[[bin]]
+name = "lz77"
+path = "src/bin/lz77.rs"
+
+[[bin]]
+name = "myzip"
+path = "src/bin/myzip.rs"
+
+[[bin]]
+name = "myunzip"
+path = "src/bin/myunzip.rs"
+
+[lib]
+name = "utils"
+path = "src/utils/utils.rs"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
